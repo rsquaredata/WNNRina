@@ -10,7 +10,7 @@
 [![Energy](https://img.shields.io/badge/Application-Electricity%20Load-red.svg)]()
 [![License](https://img.shields.io/badge/License-Academic-lightgrey.svg)]()
 
-*Master 2 SISE Project – Time Series*  
+*Master 2 SISE Project - Time Series*  
 *Université Lumière Lyon 2 | 2025–2026*
 
 [Overview](#overview) • [Methodology](#methodology) • [Package](#package) • [Installation](#installation) • [Quick Start](#quick-start)
