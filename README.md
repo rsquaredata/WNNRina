@@ -248,8 +248,6 @@ vignette("Introduction to WNNRina")
 
 ## Reproducibility
 
-## Reproducibility
-
 The entire project is fully reproducible.
 
 All data preprocessing, exploratory analysis, model benchmarking, and hyperparameter tuning are implemented in a single Quarto notebook.  
