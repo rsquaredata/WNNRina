@@ -79,10 +79,12 @@ These observations motivate the exploration of forecasting approaches that explo
   - **Stochastic time series models** (SARIMA, SARIMAX)
   - **Regression-based models** (quadratic regression with temperature effects, NNAR)
   - **Machine learning models** (Random Forest, XGBoost, Support Vector Regression, Facebook Prophet)
-- Tune model hyperparameters following a [rigorous framework](doc/notebooks/model_comparison_framework.md)
+- Tune model hyperparameters
 - Evaluate models using **rolling-origin cross-validation**
 - Select the **best-performing model**
 - Produce a final **24-hour forecast (96 values)**
+
+Hyperparameter tuning and model evaluation are performed following a rigorous and unified strategy, detailed in the [model comparison framework](doc/notebooks/model_comparison_framework.md).
 
 ### Part 2 — Weighted Nearest Neighbors
 
@@ -127,6 +129,9 @@ Weighted Nearest Neighbors implementation
 ↓
 Comparison between WNN and best benchmark model
 ```
+
+Details on the model optimization and evaluation protocol are provided in a dedicated document: [model_comparison_framework.md](doc/notebooks/model_comparison_framework.md).
+
 
 ### Model Comparison
 
